@@ -1,0 +1,123 @@
+
+.containers {
+    width: 95%;
+    margin: auto;
+}
+.sticky-top .row{
+    display: flex;
+    width: 100%;
+    align-items: space-around;
+}
+.services h1{
+    width: fit-content;
+    margin: 15px auto;
+}
+.main-nav .navbar-brand {
+    font-weight: bold;
+    font-size: 2.5rem;
+text-align: center;
+    margin: 0 auto;
+}
+.main-nav .nav-link {
+    font-weight: bold;
+    color: #fff;
+}
+.main-nav .nav-link:hover {
+    color: #333;
+    background-color: #fff;
+}
+.main2 .leftside h1{
+width: fit-content;
+margin: 5% 15% 0% 15%;
+color: yellow;
+}
+.main2 .leftside h3,
+.main2 .leftside p,
+.main2 .leftside button{
+    width: fit-content;
+    margin: 2% 15%;
+    }
+
+.main3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.main3 .row{
+    background-color: rgba(128, 128, 128, 0.2);
+
+}
+.main3 .row , .main3 .card{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+.main3 .card i{
+    font-size:xx-large;
+    width: 50%;
+    height: 20%;
+    margin: 10% auto 0px auto;
+    border: 1px solid yellow;
+    box-shadow: 10px 10px 12px rgb(249, 249, 35);
+    line-height: 250%;
+    border-radius: 50%;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.st, .nd, .rd, .th {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.st h2, .nd h2, .rd h2, .th h2 {
+    margin-top: 20px;
+}
+
+.st p, .nd p, .rd p, .th p {
+    margin-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+    .main3 {
+        padding: 100px;
+    }
+
+    .icons {
+        margin-top: 100px;
+    }
+
+    .st, .nd, .rd, .th {
+        margin: 40px;
+    }
+}
+.col-md-6 img{
+    width: 85%;
+    height: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.info{
+    background-color: yellow;
+}
+.th ul{
+    list-style-type: none;
+}
+.rd ul{
+    list-style-type: none;
+
+}
+.footer{
+    background-image:url(../6.png);
+    filter: grayscale(60%);
+}
